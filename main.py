@@ -29,7 +29,7 @@ async def start_bot(cl: Client, m: Message):
         [InlineKeyboardButton(text="➕ Add me to a group",
                               url=f"tg://resolve?domain={cl.me.username}&startgroup=&admin=manage_chat+restrict_members")],
         [InlineKeyboardButton(text="➕ Add me to a channel",
-                              url=f"tg://resolve?domain={cl.me.username}&startchannel&admin=change_info+restrict_members")],
+                              url=f"tg://resolve?domain={cl.me.username}&startchannel&admin=change_info+restrict_members+post_messages")],
         [InlineKeyboardButton(text="📦 Public Repository", url="https://github.com/samuelmarc/kickallmembersbot")]
     ])
     await m.reply(
