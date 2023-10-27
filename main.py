@@ -33,7 +33,7 @@ async def start_bot(cl: Client, m: Message):
         [InlineKeyboardButton(text="📦 Public Repository", url="https://github.com/samuelmarc/kickallmembersbot")]
     ])
     await m.reply(
-        f"Hello {m.from_user.mention} I am a bot to remove (not ban) all users from your group or channel created by @samuel_ks, below you can add the bot to your group or channel or access the bot's public repository .",
+        f"Hello {m.from_user.mention} I am a bot to remove (not ban) all users from your group or channel created by @samuelpoc, below you can add the bot to your group or channel or access the bot's public repository .",
         reply_markup=keyboard)
 
 
