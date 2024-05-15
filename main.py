@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.WARNING, format='%(asctime)s - %(name)s - %(le
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
+API_HASH = os.getenv("API_HASH")     
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 uvloop.install()
